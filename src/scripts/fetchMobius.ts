@@ -18,5 +18,5 @@ export const fetchMobius = async (): Promise<void> => {
 
   await fs.writeFile("src/data/pools.json", JSON.stringify(pools, null, 2));
 
-  console.log(`Discovered and wrote ${pools.length} safeboxes`);
+  console.log(`Discovered and wrote ${pools.length} pools`);
 };
