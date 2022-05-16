@@ -32,6 +32,7 @@ export const fetchUbeswap = async () => {
   const allPairData = await getBulkPairData(formattedPairs);
   if (!allPairData) return;
   allPairData.filter((p) => parseFloat(p.trackedReserveUSD as string) > 1000);
+  console.log(allPairData[0]!.token0.decimals);
 };
 
 async function getBulkPairData(pairList: string[]) {

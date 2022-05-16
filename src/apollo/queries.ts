@@ -17,33 +17,20 @@ export const PAIRS_CURRENT: DocumentNode = gql`
 const PairFields = gql`
   fragment PairFields on Pair {
     id
-    txCount
     token0 {
       id
       symbol
       name
-      totalLiquidity
-      derivedCUSD
+      decimals
     }
     token1 {
       id
       symbol
       name
-      totalLiquidity
-      derivedCUSD
+      decimals
     }
-    reserve0
-    reserve1
     reserveUSD
-    totalSupply
     trackedReserveUSD
-    reserveCELO
-    volumeUSD
-    untrackedVolumeUSD
-    token0Price
-    token1Price
-    createdAtTimestamp
-    createdAtBlockNumber
   }
 `;
 
