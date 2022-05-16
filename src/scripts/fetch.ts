@@ -1,7 +1,7 @@
-import { fetchMobius } from "./fetchMobius";
+import { fetchUbeswap } from "./fetchUbeswap";
 
 export const fetch = async (): Promise<void> => {
-  await fetchMobius();
+  await fetchUbeswap();
 };
 
 fetch().catch((err) => {

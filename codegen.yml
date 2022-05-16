@@ -1,0 +1,15 @@
+schema:
+  - https://api.thegraph.com/index-node/graphql
+  - https://api.thegraph.com/subgraphs/name/ubeswap/ubeswap
+documents: ./src/apollo/queries.ts
+config:
+  immutableTypes: true
+  scalars:
+    Bytes: Bytes
+    BigInt: GBigInt
+    BigDecimal: BigDecimal
+generates:
+  ./src/apollo/generated/types.ts:
+    plugins:
+      - typescript
+      - typescript-operations
