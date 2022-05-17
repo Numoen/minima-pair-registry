@@ -64,7 +64,7 @@ const getMultiplePoolDataChunked = async (keys: string[]) => {
     await Promise.all(
       keyChunks.map(async (c) => {
         const poolData = (await client.query({
-          query: POOLS_BULK(undefined, c),
+          query: POOLS_BULK(c),
           errorPolicy: "ignore",
           fetchPolicy: "cache-first",
         })) as { data: PoolDataResponse };

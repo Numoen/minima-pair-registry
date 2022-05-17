@@ -62,7 +62,7 @@ export const TOP_POOLS = gql`
   }
 `;
 
-export const POOLS_BULK = (block: number | undefined, pools: string[]) => {
+export const POOLS_BULK = (pools: string[]) => {
   let poolString = `[`;
   pools.map((address) => {
     return (poolString += `"${address}",`);
@@ -72,33 +72,20 @@ export const POOLS_BULK = (block: number | undefined, pools: string[]) => {
     `
     query pools {
       pools(where: {id_in: ${poolString}},` +
-    (block ? `block: {number: ${block}} ,` : ``) +
     ` orderBy: totalValueLockedUSD, orderDirection: desc, subgraphError: allow) {
         id
-        feeTier
-        liquidity
-        sqrtPrice
-        tick
         token0 {
             id
             symbol 
             name
             decimals
-            derivedETH
         }
         token1 {
             id
             symbol 
             name
             decimals
-            derivedETH
         }
-        token0Price
-        token1Price
-        volumeUSD
-        txCount
-        totalValueLockedToken0
-        totalValueLockedToken1
         totalValueLockedUSD
       }
     }
