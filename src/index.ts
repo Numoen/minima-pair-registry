@@ -7,6 +7,8 @@ export enum Exchange {
   Saddle,
 }
 
+export const minLiquidityUSD = 1000;
+
 export interface Pool {
   chainID: number;
   exchange: Exchange;
