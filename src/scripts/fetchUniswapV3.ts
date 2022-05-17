@@ -5,9 +5,10 @@ import { ApolloClient } from "apollo-client";
 import { HttpLink } from "apollo-link-http";
 import fetch from "cross-fetch";
 import * as fs from "fs/promises";
+import { chunk } from "lodash";
 
 import type { Pool } from "..";
-import { Exchange, minLiquidityUSD } from "..";
+import { Exchange, maxChunk, minLiquidityUSD } from "..";
 import { POOLS_BULK, TOP_POOLS } from "../apollo/queries";
 
 const client = new ApolloClient({
@@ -57,6 +58,22 @@ interface TopPoolsResponse {
   }[];
 }
 
+const getMultiplePoolDataChunked = async (keys: string[]) => {
+  const keyChunks = chunk(keys, maxChunk);
+  return (
+    await Promise.all(
+      keyChunks.map(async (c) => {
+        const poolData = (await client.query({
+          query: POOLS_BULK(undefined, c),
+          errorPolicy: "ignore",
+          fetchPolicy: "cache-first",
+        })) as { data: PoolDataResponse };
+        return poolData.data.pools;
+      })
+    )
+  ).flat();
+};
+
 export const fetchUniswap = async () => {
   const {
     data: { pools: pairs },
@@ -70,13 +87,7 @@ export const fetchUniswap = async () => {
     return pair.id;
   });
 
-  const {
-    data: { pools: allPairData },
-  }: { data: PoolDataResponse } = await client.query({
-    query: POOLS_BULK(undefined, formattedData),
-    errorPolicy: "ignore",
-    fetchPolicy: "cache-first",
-  });
+  const allPairData = await getMultiplePoolDataChunked(formattedData);
   const pools: Pool[] = allPairData
     .filter((p) => parseFloat(p.totalValueLockedUSD) >= minLiquidityUSD)
     .map((p) => ({

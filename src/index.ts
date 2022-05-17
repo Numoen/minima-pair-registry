@@ -9,6 +9,8 @@ export enum Exchange {
 
 export const minLiquidityUSD = 1000;
 
+export const maxChunk = 100;
+
 export interface Pool {
   chainID: number;
   exchange: Exchange;
