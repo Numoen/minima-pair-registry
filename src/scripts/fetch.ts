@@ -1,7 +1,7 @@
-import { fetchUbeswap } from "./fetchUbeswap";
+import { fetchUniswap } from "./fetchUniswapV3";
 
 export const fetch = async (): Promise<void> => {
-  await fetchUbeswap();
+  await fetchUniswap();
 };
 
 fetch().catch((err) => {
