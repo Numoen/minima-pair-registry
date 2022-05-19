@@ -1,4 +1,3 @@
-import { ChainId } from "@dahlia-labs/celo-contrib";
 import { Token } from "@dahlia-labs/token-utils";
 import { getAddress } from "@ethersproject/address";
 import { InMemoryCache } from "apollo-cache-inmemory";
@@ -67,7 +66,7 @@ export const fetchUniswapV2 = async () => {
     )
     .map(
       (p): Pool => ({
-        chainID: ChainId.Mainnet,
+        chainID: 1,
         exchange: Exchange.UniswapV2,
         address: getAddress(p.id),
         tokens: [p.token0, p.token1].map(
@@ -75,7 +74,7 @@ export const fetchUniswapV2 = async () => {
             new Token({
               symbol: t.symbol,
               decimals: parseInt(t.decimals as string),
-              chainId: ChainId.Mainnet,
+              chainId: 1,
               address: getAddress(t.id),
               name: t.name,
             })
