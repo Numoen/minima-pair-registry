@@ -1,6 +1,9 @@
 schema:
   - https://api.thegraph.com/index-node/graphql
   - https://api.thegraph.com/subgraphs/name/ubeswap/ubeswap
+  - "https://api.thegraph.com/subgraphs/name/ianlapham/uniswapv2"
+  - "https://api.thegraph.com/subgraphs/name/traderjoe-xyz/exchange"
+  - "https://api.thegraph.com/subgraphs/name/ianlapham/uniswap-v3-subgraph"
 documents: ./src/apollo/queries.ts
 config:
   immutableTypes: true

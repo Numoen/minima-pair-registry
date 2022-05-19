@@ -10,15 +10,15 @@ import * as fs from "fs/promises";
 import type { Pool } from "..";
 import { Exchange, minLiquidityUSD } from "..";
 import type {
-  PairsBulkUsdQuery,
-  PairsBulkUsdQueryVariables,
+  PairsBulkEthQuery,
+  PairsBulkEthQueryVariables,
 } from "../apollo/generated/types";
-import { PAIRS_BULK_USD, PAIRS_CURRENT } from "../apollo/queries";
+import { PAIRS_BULK_ETH, PAIRS_CURRENT } from "../apollo/queries";
 
-export const fetchUbeswap = async () => {
+export const fetchUniswapV2 = async () => {
   const client = new ApolloClient({
     link: new HttpLink({
-      uri: "https://api.thegraph.com/subgraphs/name/ubeswap/ubeswap",
+      uri: "https://api.thegraph.com/subgraphs/name/ianlapham/uniswapv2",
       fetch,
     }),
     cache: new InMemoryCache(),
@@ -39,17 +39,17 @@ export const fetchUbeswap = async () => {
     return pair.id;
   });
   const { data: bulkPairData } = await client.query<
-    PairsBulkUsdQuery,
-    PairsBulkUsdQueryVariables
+    PairsBulkEthQuery,
+    PairsBulkEthQueryVariables
   >({
-    query: PAIRS_BULK_USD,
+    query: PAIRS_BULK_ETH,
     variables: {
       allPairs: formattedPairs,
     },
     fetchPolicy: "cache-first",
   });
-  const ubeswapPairs = bulkPairData.pairs
-    .filter((p) => parseFloat(p.trackedReserveUSD as string) >= minLiquidityUSD)
+  const uniswapPairs = bulkPairData.pairs
+    .filter((p) => parseFloat(p.trackedReserveETH as string) >= minLiquidityUSD)
     .map(
       (p): Pool => ({
         chainID: ChainId.Mainnet,
@@ -69,9 +69,9 @@ export const fetchUbeswap = async () => {
     );
 
   await fs.writeFile(
-    "src/data/ubeswap.json",
-    JSON.stringify(ubeswapPairs, null, 2)
+    "src/data/uniswapv2.json",
+    JSON.stringify(uniswapPairs, null, 2)
   );
 
-  console.log(`Discovered and wrote ${ubeswapPairs.length} Ubeswap pools`);
+  console.log(`Discovered and wrote ${uniswapPairs.length} UniswapV2 pools`);
 };

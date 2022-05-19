@@ -1,10 +1,18 @@
 import { fetchMobius } from "./fetchMobius";
+import { fetchTraderJoe } from "./fetchTraderjoe";
 import { fetchUbeswap } from "./fetchUbeswap";
-import { fetchUniswap } from "./fetchUniswapV3";
+import { fetchUniswapV2 } from "./fetchUniswapV2";
+import { fetchUniswapV3 } from "./fetchUniswapV3";
 
 export const fetch = async (): Promise<void> => {
   await Promise.all(
-    [fetchUniswap, fetchUbeswap, fetchMobius].map((fet) => fet())
+    [
+      fetchUniswapV2,
+      fetchUniswapV3,
+      fetchUbeswap,
+      fetchTraderJoe,
+      fetchMobius,
+    ].map((fet) => fet())
   );
 };
 

@@ -74,7 +74,7 @@ const getMultiplePoolDataChunked = async (keys: string[]) => {
   ).flat();
 };
 
-export const fetchUniswap = async () => {
+export const fetchUniswapV3 = async () => {
   const {
     data: { pools: pairs },
   }: { data: TopPoolsResponse } = await client.query({
@@ -106,7 +106,7 @@ export const fetchUniswap = async () => {
       ),
     }));
 
-  await fs.writeFile("src/data/uniswap.json", JSON.stringify(pools, null, 2));
+  await fs.writeFile("src/data/uniswapv3.json", JSON.stringify(pools, null, 2));
 
-  console.log(`Discovered and wrote ${pools.length} pools`);
+  console.log(`Discovered and wrote ${pools.length} Uniswap V3 pools`);
 };

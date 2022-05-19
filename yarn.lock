@@ -815,6 +815,7 @@ __metadata:
   dependencies:
     "@dahlia-labs/celo-contrib": ^0.4.2
     "@dahlia-labs/celo-tokens": ^0.4.2
+    "@dahlia-labs/mobius-config-registry": ^0.0.0
     "@dahlia-labs/token-utils": ^0.4.2
     "@ethersproject/abi": ^5.6.2
     "@ethersproject/address": ^5.6.0
@@ -865,6 +866,37 @@ __metadata:
     typescript: 4.6.4
   languageName: unknown
   linkType: soft
+
+"@dahlia-labs/mobius-config-registry@npm:^0.0.0":
+  version: 0.0.0
+  resolution: "@dahlia-labs/mobius-config-registry@npm:0.0.0"
+  dependencies:
+    "@dahlia-labs/celo-contrib": ^0.4.2
+    "@dahlia-labs/celo-tokens": ^0.4.2
+    "@dahlia-labs/token-utils": ^0.4.2
+    "@ethersproject/abi": ^5.6.2
+    "@ethersproject/address": ^5.6.0
+    "@ethersproject/bignumber": ^5.6.1
+    "@ethersproject/bytes": ^5.6.1
+    "@ethersproject/constants": ^5.6.0
+    "@ethersproject/contracts": ^5.6.1
+    "@ethersproject/providers": ^5.6.6
+    "@saberhq/tsconfig": ^1.13.6
+    "@typechain/ethers-v5": ^10.0.0
+    "@yarnpkg/doctor": ^4.0.0-rc.6
+    bignumber.js: ^9.0.2
+    bn.js: ^5.2.0
+    cross-env: ^7.0.3
+    ethers: ^5.6.6
+    jsbi: ^4.3.0
+    lodash: ^4.17.21
+    tiny-invariant: ^1.2.0
+    tslib: ^2.4.0
+    typechain: ^8.0.0
+    typedoc: ^0.22.15
+  checksum: 17b90698ebbeb22d1a45b50e11f0432e28649a84c9bad27ffbfc6b297044b375599f99bf7c39e3be0acb25a4c66224f3513cd9e904217e9968db9a6c137e755d
+  languageName: node
+  linkType: hard
 
 "@dahlia-labs/token-utils@npm:^0.4.2":
   version: 0.4.2
