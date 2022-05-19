@@ -4,7 +4,7 @@ import gql from "graphql-tag";
 export const PAIRS_CURRENT: DocumentNode = gql`
   query PairsCurrent {
     pairs(
-      first: 200
+      first: 500
       orderBy: reserveUSD
       orderDirection: desc
       subgraphError: allow

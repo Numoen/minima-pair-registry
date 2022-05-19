@@ -4,6 +4,7 @@ import { getAddress } from "@ethersproject/address";
 import { InMemoryCache } from "apollo-cache-inmemory";
 import { ApolloClient } from "apollo-client";
 import { HttpLink } from "apollo-link-http";
+import axios from "axios";
 import fetch from "cross-fetch";
 import * as fs from "fs/promises";
 
@@ -16,6 +17,15 @@ import type {
 import { PAIRS_BULK_AVAX, PAIRS_CURRENT } from "../apollo/queries";
 
 export const fetchTraderJoe = async () => {
+  interface avax {
+    "avalanche-2": {
+      usd: number;
+    };
+  }
+  const { data: priceData } = await axios.get<avax>(
+    `https://api.coingecko.com/api/v3/simple/price?ids=avalanche-2&vs_currencies=usd`
+  );
+
   const client = new ApolloClient({
     link: new HttpLink({
       uri: "https://api.thegraph.com/subgraphs/name/traderjoe-xyz/exchange",
@@ -50,7 +60,10 @@ export const fetchTraderJoe = async () => {
   });
   const traderjoePairs = bulkPairData.pairs
     .filter(
-      (p) => parseFloat(p.trackedReserveAVAX as string) >= minLiquidityUSD
+      (p) =>
+        priceData["avalanche-2"].usd *
+          parseFloat(p.trackedReserveAVAX as string) >=
+        minLiquidityUSD
     )
     .map(
       (p): Pool => ({

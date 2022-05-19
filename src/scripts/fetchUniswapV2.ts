@@ -4,6 +4,7 @@ import { getAddress } from "@ethersproject/address";
 import { InMemoryCache } from "apollo-cache-inmemory";
 import { ApolloClient } from "apollo-client";
 import { HttpLink } from "apollo-link-http";
+import axios from "axios";
 import fetch from "cross-fetch";
 import * as fs from "fs/promises";
 
@@ -16,6 +17,15 @@ import type {
 import { PAIRS_BULK_ETH, PAIRS_CURRENT } from "../apollo/queries";
 
 export const fetchUniswapV2 = async () => {
+  interface eth {
+    ethereum: {
+      usd: string;
+    };
+  }
+  const { data: priceData } = await axios.get<eth>(
+    `https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd`
+  );
+
   const client = new ApolloClient({
     link: new HttpLink({
       uri: "https://api.thegraph.com/subgraphs/name/ianlapham/uniswapv2",
@@ -49,7 +59,12 @@ export const fetchUniswapV2 = async () => {
     fetchPolicy: "cache-first",
   });
   const uniswapPairs = bulkPairData.pairs
-    .filter((p) => parseFloat(p.trackedReserveETH as string) >= minLiquidityUSD)
+    .filter(
+      (p) =>
+        parseFloat(p.trackedReserveETH as string) *
+          parseFloat(priceData.ethereum.usd) >=
+        minLiquidityUSD
+    )
     .map(
       (p): Pool => ({
         chainID: ChainId.Mainnet,
