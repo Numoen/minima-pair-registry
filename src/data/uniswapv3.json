@@ -317,14 +317,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x5C128d25A21f681e678cB050E551A895c9309945",
+    "address": "0x7BeA39867e4169DBe237d55C8242a8f2fcDcc387",
     "tokens": [
       {
-        "symbol": "BIT",
-        "decimals": 18,
+        "symbol": "USDC",
+        "decimals": 6,
         "chainId": 1,
-        "address": "0x1A4b46696b2bB4794Eb3D4c26f1c55F9170fa4C5",
-        "name": "BitDAO"
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "name": "USD Coin"
       },
       {
         "symbol": "WETH",
@@ -338,14 +338,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x7BeA39867e4169DBe237d55C8242a8f2fcDcc387",
+    "address": "0x5C128d25A21f681e678cB050E551A895c9309945",
     "tokens": [
       {
-        "symbol": "USDC",
-        "decimals": 6,
+        "symbol": "BIT",
+        "decimals": 18,
         "chainId": 1,
-        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "name": "USD Coin"
+        "address": "0x1A4b46696b2bB4794Eb3D4c26f1c55F9170fa4C5",
+        "name": "BitDAO"
       },
       {
         "symbol": "WETH",
@@ -1136,27 +1136,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xD340B57AAcDD10F96FC1CF10e15921936F41E29c",
-    "tokens": [
-      {
-        "symbol": "wstETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
-        "name": "Wrapped liquid staked Ether 2.0"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0xcf56B49B435F4d326467788f2C8543cf9A99660F",
     "tokens": [
       {
@@ -1178,14 +1157,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x151CcB92bc1eD5c6D0F9Adb5ceC4763cEb66AC7f",
+    "address": "0xD340B57AAcDD10F96FC1CF10e15921936F41E29c",
     "tokens": [
       {
-        "symbol": "ETH2x-FLI",
+        "symbol": "wstETH",
         "decimals": 18,
         "chainId": 1,
-        "address": "0xAa6E8127831c9DE45ae56bB1b0d4D4Da6e5665BD",
-        "name": "ETH 2x Flexible Leverage Index"
+        "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "name": "Wrapped liquid staked Ether 2.0"
       },
       {
         "symbol": "WETH",
@@ -1214,6 +1193,27 @@
         "chainId": 1,
         "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "name": "Tether USD"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x151CcB92bc1eD5c6D0F9Adb5ceC4763cEb66AC7f",
+    "tokens": [
+      {
+        "symbol": "ETH2x-FLI",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xAa6E8127831c9DE45ae56bB1b0d4D4Da6e5665BD",
+        "name": "ETH 2x Flexible Leverage Index"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
       }
     ]
   },
@@ -1388,21 +1388,21 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x1c98562A2FaB5aF19D8Fb3291a36AC3C618835D9",
+    "address": "0x75BFF91Af9878F5eC3FEDE9b52D51159afc2430A",
     "tokens": [
       {
-        "symbol": "Metis",
-        "decimals": 18,
+        "symbol": "FUN",
+        "decimals": 8,
         "chainId": 1,
-        "address": "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e",
-        "name": "Metis Token"
+        "address": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
+        "name": "FunFair"
       },
       {
-        "symbol": "WETH",
+        "symbol": "DAI",
         "decimals": 18,
         "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "name": "Dai Stablecoin"
       }
     ]
   },
@@ -1424,27 +1424,6 @@
         "chainId": 1,
         "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "name": "USD Coin"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x75BFF91Af9878F5eC3FEDE9b52D51159afc2430A",
-    "tokens": [
-      {
-        "symbol": "FUN",
-        "decimals": 8,
-        "chainId": 1,
-        "address": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
-        "name": "FunFair"
-      },
-      {
-        "symbol": "DAI",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-        "name": "Dai Stablecoin"
       }
     ]
   },
@@ -1493,14 +1472,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x5aB53EE1d50eeF2C1DD3d5402789cd27bB52c1bB",
+    "address": "0x1c98562A2FaB5aF19D8Fb3291a36AC3C618835D9",
     "tokens": [
       {
-        "symbol": "AAVE",
+        "symbol": "Metis",
         "decimals": 18,
         "chainId": 1,
-        "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
-        "name": "Aave Token"
+        "address": "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e",
+        "name": "Metis Token"
       },
       {
         "symbol": "WETH",
@@ -1514,14 +1493,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x29F0096512B4af1d689c1a11A867A6e707a8DcDe",
+    "address": "0x930b2c8Ff1de619d4D6594DA0Ba03fdEDA09a672",
     "tokens": [
       {
-        "symbol": "FUN",
-        "decimals": 8,
+        "symbol": "NFTX",
+        "decimals": 18,
         "chainId": 1,
-        "address": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
-        "name": "FunFair"
+        "address": "0x87d73E916D7057945c9BcD8cdd94e42A6F47f776",
+        "name": "NFTX"
       },
       {
         "symbol": "WETH",
@@ -1556,14 +1535,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x930b2c8Ff1de619d4D6594DA0Ba03fdEDA09a672",
+    "address": "0x29F0096512B4af1d689c1a11A867A6e707a8DcDe",
     "tokens": [
       {
-        "symbol": "NFTX",
-        "decimals": 18,
+        "symbol": "FUN",
+        "decimals": 8,
         "chainId": 1,
-        "address": "0x87d73E916D7057945c9BcD8cdd94e42A6F47f776",
-        "name": "NFTX"
+        "address": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
+        "name": "FunFair"
       },
       {
         "symbol": "WETH",
@@ -1571,27 +1550,6 @@
         "chainId": 1,
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x9Db9e0e53058C89e5B94e29621a205198648425B",
-    "tokens": [
-      {
-        "symbol": "WBTC",
-        "decimals": 8,
-        "chainId": 1,
-        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-        "name": "Wrapped BTC"
-      },
-      {
-        "symbol": "USDT",
-        "decimals": 6,
-        "chainId": 1,
-        "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "name": "Tether USD"
       }
     ]
   },
@@ -1648,6 +1606,48 @@
         "chainId": 1,
         "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
         "name": "Maker"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x9Db9e0e53058C89e5B94e29621a205198648425B",
+    "tokens": [
+      {
+        "symbol": "WBTC",
+        "decimals": 8,
+        "chainId": 1,
+        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "name": "Wrapped BTC"
+      },
+      {
+        "symbol": "USDT",
+        "decimals": 6,
+        "chainId": 1,
+        "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "name": "Tether USD"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x5aB53EE1d50eeF2C1DD3d5402789cd27bB52c1bB",
+    "tokens": [
+      {
+        "symbol": "AAVE",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        "name": "Aave Token"
       },
       {
         "symbol": "WETH",
@@ -1724,6 +1724,27 @@
   {
     "chainID": 1,
     "exchange": 1,
+    "address": "0xe42318eA3b998e8355a3Da364EB9D48eC725Eb45",
+    "tokens": [
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      },
+      {
+        "symbol": "RPL",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
+        "name": "Rocket Pool Protocol"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
     "address": "0xBb5e639A18631E38DF1569e1fd2dC81C6d1Ce1D4",
     "tokens": [
       {
@@ -1766,35 +1787,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xe42318eA3b998e8355a3Da364EB9D48eC725Eb45",
+    "address": "0xc1cd3D0913f4633b43FcdDBCd7342bC9b71C676f",
     "tokens": [
       {
-        "symbol": "WETH",
+        "symbol": "INST",
         "decimals": 18,
         "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      },
-      {
-        "symbol": "RPL",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
-        "name": "Rocket Pool Protocol"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x2F62f2B4c5fcd7570a709DeC05D68EA19c82A9ec",
-    "tokens": [
-      {
-        "symbol": "SHIB",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
-        "name": "SHIBA INU"
+        "address": "0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb",
+        "name": "Instadapp"
       },
       {
         "symbol": "WETH",
@@ -1829,14 +1829,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xc1cd3D0913f4633b43FcdDBCd7342bC9b71C676f",
+    "address": "0x2F62f2B4c5fcd7570a709DeC05D68EA19c82A9ec",
     "tokens": [
       {
-        "symbol": "INST",
+        "symbol": "SHIB",
         "decimals": 18,
         "chainId": 1,
-        "address": "0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb",
-        "name": "Instadapp"
+        "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+        "name": "SHIBA INU"
       },
       {
         "symbol": "WETH",
@@ -1913,27 +1913,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x92c7b5Ce4CB0e5483F3365C1449f21578eE9f21A",
-    "tokens": [
-      {
-        "symbol": "FRAX",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
-        "name": "Frax"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x5aA1356999821b533EC5d9f79c23B8cB7c295C61",
     "tokens": [
       {
@@ -1949,6 +1928,27 @@
         "chainId": 1,
         "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "name": "USD Coin"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x92c7b5Ce4CB0e5483F3365C1449f21578eE9f21A",
+    "tokens": [
+      {
+        "symbol": "FRAX",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+        "name": "Frax"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
       }
     ]
   },
@@ -2039,27 +2039,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x8dB1b906d47dFc1D84A87fc49bd0522e285b98b9",
-    "tokens": [
-      {
-        "symbol": "agEUR",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
-        "name": "agEUR"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x2E4784446A0a06dF3D1A040b03e1680Ee266c35a",
     "tokens": [
       {
@@ -2102,14 +2081,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x3019D4e366576A88D28B623afAF3eCb9ec9d9580",
+    "address": "0x8dB1b906d47dFc1D84A87fc49bd0522e285b98b9",
     "tokens": [
       {
-        "symbol": "AXS",
+        "symbol": "agEUR",
         "decimals": 18,
         "chainId": 1,
-        "address": "0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b",
-        "name": "Axie Infinity Shard"
+        "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
+        "name": "agEUR"
       },
       {
         "symbol": "WETH",
@@ -2144,14 +2123,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x786B582a0bBCAC5d192D7e039f49C116aC5f05A8",
+    "address": "0x3019D4e366576A88D28B623afAF3eCb9ec9d9580",
     "tokens": [
       {
-        "symbol": "PDT",
+        "symbol": "AXS",
         "decimals": 18,
         "chainId": 1,
-        "address": "0x375aBB85C329753b1Ba849a601438AE77eEc9893",
-        "name": "Paragons DAO Token"
+        "address": "0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b",
+        "name": "Axie Infinity Shard"
       },
       {
         "symbol": "WETH",
@@ -2165,14 +2144,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x1353fE67fFf8f376762b7034DC9066f0bE15a723",
+    "address": "0x786B582a0bBCAC5d192D7e039f49C116aC5f05A8",
     "tokens": [
       {
-        "symbol": "AAVE",
+        "symbol": "PDT",
         "decimals": 18,
         "chainId": 1,
-        "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
-        "name": "Aave Token"
+        "address": "0x375aBB85C329753b1Ba849a601438AE77eEc9893",
+        "name": "Paragons DAO Token"
       },
       {
         "symbol": "WETH",
@@ -2201,6 +2180,48 @@
         "chainId": 1,
         "address": "0xf1B99e3E573A1a9C5E6B2Ce818b617F0E664E86B",
         "name": "Opyn Squeeth"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x1353fE67fFf8f376762b7034DC9066f0bE15a723",
+    "tokens": [
+      {
+        "symbol": "AAVE",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        "name": "Aave Token"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x86E69D1AE728c9Cd229F07bBf34E01bF27258354",
+    "tokens": [
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      },
+      {
+        "symbol": "TRU",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xf65B5C5104c4faFD4b709d9D60a185eAE063276c",
+        "name": "Truebit"
       }
     ]
   },
@@ -2249,27 +2270,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x86E69D1AE728c9Cd229F07bBf34E01bF27258354",
-    "tokens": [
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      },
-      {
-        "symbol": "TRU",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xf65B5C5104c4faFD4b709d9D60a185eAE063276c",
-        "name": "Truebit"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0xe68AcF3a42B74b0d7609330661732b08a28febee",
     "tokens": [
       {
@@ -2278,27 +2278,6 @@
         "chainId": 1,
         "address": "0x49bc8340ACD3521150d7cCD8a4a3510D2F5130Ca",
         "name": "Ukan"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x4C54Ff7F1c424Ff5487A32aaD0b48B19cBAf087F",
-    "tokens": [
-      {
-        "symbol": "NEXO",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
-        "name": "Nexo"
       },
       {
         "symbol": "WETH",
@@ -2327,6 +2306,27 @@
         "chainId": 1,
         "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "name": "USD Coin"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x4C54Ff7F1c424Ff5487A32aaD0b48B19cBAf087F",
+    "tokens": [
+      {
+        "symbol": "NEXO",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
+        "name": "Nexo"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
       }
     ]
   },
@@ -2369,27 +2369,6 @@
         "chainId": 1,
         "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "name": "Tether USD"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x058D79a4C6eb5B11d0248993fFA1faa168DDd3C0",
-    "tokens": [
-      {
-        "symbol": "wNXM",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x0d438F3b5175Bebc262bF23753C1E53d03432bDE",
-        "name": "Wrapped NXM"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
       }
     ]
   },
@@ -2480,14 +2459,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xcD83055557536EFf25FD0eAfbC56e74a1b4260B3",
+    "address": "0x058D79a4C6eb5B11d0248993fFA1faa168DDd3C0",
     "tokens": [
       {
-        "symbol": "PERP",
+        "symbol": "wNXM",
         "decimals": 18,
         "chainId": 1,
-        "address": "0xbC396689893D065F41bc2C6EcbeE5e0085233447",
-        "name": "Perpetual"
+        "address": "0x0d438F3b5175Bebc262bF23753C1E53d03432bDE",
+        "name": "Wrapped NXM"
       },
       {
         "symbol": "WETH",
@@ -2537,6 +2516,27 @@
         "chainId": 1,
         "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "name": "USD Coin"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0xcD83055557536EFf25FD0eAfbC56e74a1b4260B3",
+    "tokens": [
+      {
+        "symbol": "PERP",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xbC396689893D065F41bc2C6EcbeE5e0085233447",
+        "name": "Perpetual"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
       }
     ]
   },
@@ -2606,48 +2606,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xf8a95b2409C27678A6d18D950c5d913D5C38aB03",
-    "tokens": [
-      {
-        "symbol": "GALA",
-        "decimals": 8,
-        "chainId": 1,
-        "address": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA",
-        "name": "Gala"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x24EE2c6B9597F035088CDa8575E9D5e15a84B9DF",
-    "tokens": [
-      {
-        "symbol": "QNT",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x4a220E6096B25EADb88358cb44068A3248254675",
-        "name": "Quant"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x76d66961B84a520A859a2Fb6075Af220BE6461E8",
     "tokens": [
       {
@@ -2663,27 +2621,6 @@
         "chainId": 1,
         "address": "0xCfa0885131F602D11D4DA248D2c65A62063567A9",
         "name": "TORG"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0xfcA9090D2C91e11cC546b0D7E4918c79e0088194",
-    "tokens": [
-      {
-        "symbol": "XSGD",
-        "decimals": 6,
-        "chainId": 1,
-        "address": "0x70e8dE73cE538DA2bEEd35d14187F6959a8ecA96",
-        "name": "XSGD"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
       }
     ]
   },
@@ -2711,6 +2648,48 @@
   {
     "chainID": 1,
     "exchange": 1,
+    "address": "0xfcA9090D2C91e11cC546b0D7E4918c79e0088194",
+    "tokens": [
+      {
+        "symbol": "XSGD",
+        "decimals": 6,
+        "chainId": 1,
+        "address": "0x70e8dE73cE538DA2bEEd35d14187F6959a8ecA96",
+        "name": "XSGD"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0xf8a95b2409C27678A6d18D950c5d913D5C38aB03",
+    "tokens": [
+      {
+        "symbol": "GALA",
+        "decimals": 8,
+        "chainId": 1,
+        "address": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA",
+        "name": "Gala"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
     "address": "0x391E8501b626C623d39474AfcA6f9e46c2686649",
     "tokens": [
       {
@@ -2726,6 +2705,27 @@
         "chainId": 1,
         "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "name": "Dai Stablecoin"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x24EE2c6B9597F035088CDa8575E9D5e15a84B9DF",
+    "tokens": [
+      {
+        "symbol": "QNT",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x4a220E6096B25EADb88358cb44068A3248254675",
+        "name": "Quant"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
       }
     ]
   },
@@ -2774,27 +2774,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xBc32D18C5C1138094Dabeb3B4d5b720db75C823C",
-    "tokens": [
-      {
-        "symbol": "WBTC",
-        "decimals": 8,
-        "chainId": 1,
-        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-        "name": "Wrapped BTC"
-      },
-      {
-        "symbol": "XSGD",
-        "decimals": 6,
-        "chainId": 1,
-        "address": "0x70e8dE73cE538DA2bEEd35d14187F6959a8ecA96",
-        "name": "XSGD"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x06729eb2424da47898F935267BD4a62940DE5105",
     "tokens": [
       {
@@ -2837,21 +2816,21 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x9e0905249CeEFfFB9605E034b534544684A58BE6",
+    "address": "0xBc32D18C5C1138094Dabeb3B4d5b720db75C823C",
     "tokens": [
       {
-        "symbol": "HEX",
+        "symbol": "WBTC",
         "decimals": 8,
         "chainId": 1,
-        "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
-        "name": "HEX"
+        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "name": "Wrapped BTC"
       },
       {
-        "symbol": "WETH",
-        "decimals": 18,
+        "symbol": "XSGD",
+        "decimals": 6,
         "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
+        "address": "0x70e8dE73cE538DA2bEEd35d14187F6959a8ecA96",
+        "name": "XSGD"
       }
     ]
   },
@@ -2866,6 +2845,27 @@
         "chainId": 1,
         "address": "0x0ab87046fBb341D058F17CBC4c1133F25a20a52f",
         "name": "Governance OHM"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x9e0905249CeEFfFB9605E034b534544684A58BE6",
+    "tokens": [
+      {
+        "symbol": "HEX",
+        "decimals": 8,
+        "chainId": 1,
+        "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+        "name": "HEX"
       },
       {
         "symbol": "WETH",
@@ -3026,27 +3026,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xB386c1d831eED803F5e8F274A59C91c4C22EEAc0",
-    "tokens": [
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      },
-      {
-        "symbol": "FLOOR",
-        "decimals": 9,
-        "chainId": 1,
-        "address": "0xf59257E961883636290411c11ec5Ae622d19455e",
-        "name": "Floor"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0xCD8286b48936cDAC20518247dBD310ab681A9fBf",
     "tokens": [
       {
@@ -3062,6 +3041,27 @@
         "chainId": 1,
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0xB386c1d831eED803F5e8F274A59C91c4C22EEAc0",
+    "tokens": [
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      },
+      {
+        "symbol": "FLOOR",
+        "decimals": 9,
+        "chainId": 1,
+        "address": "0xf59257E961883636290411c11ec5Ae622d19455e",
+        "name": "Floor"
       }
     ]
   },
@@ -3110,27 +3110,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x27a9ff745cf1Dd366d94267Cb4aDE2350588a187",
-    "tokens": [
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      },
-      {
-        "symbol": "AVINOC",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xF1cA9cb74685755965c7458528A36934Df52A3EF",
-        "name": "AVINOC Token"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x7736B5006d90D5D5c0Ee8148F1Ea07ef82aB1677",
     "tokens": [
       {
@@ -3146,6 +3125,27 @@
         "chainId": 1,
         "address": "0xDDdddd4301A082e62E84e43F474f044423921918",
         "name": "DeversiFi Token"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x27a9ff745cf1Dd366d94267Cb4aDE2350588a187",
+    "tokens": [
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      },
+      {
+        "symbol": "AVINOC",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xF1cA9cb74685755965c7458528A36934Df52A3EF",
+        "name": "AVINOC Token"
       }
     ]
   },
@@ -3341,21 +3341,21 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xEb5C52e8af57334FaB0b5f3d888990C108545527",
+    "address": "0xb2dCAa15fbd8460BcB9Cfab5aeBea7Ab0Ed328FE",
     "tokens": [
       {
-        "symbol": "WETH",
-        "decimals": 18,
+        "symbol": "WBTC",
+        "decimals": 8,
         "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
+        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "name": "Wrapped BTC"
       },
       {
-        "symbol": "WRLD",
+        "symbol": "BTCM",
         "decimals": 18,
         "chainId": 1,
-        "address": "0xD5d86FC8d5C0Ea1aC1Ac5Dfab6E529c9967a45E9",
-        "name": "NFT Worlds"
+        "address": "0x36f9975d8184a65be42290D5A8764Dc97f3D9396",
+        "name": "Bitcoin Mapped Token"
       }
     ]
   },
@@ -3383,48 +3383,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xb2dCAa15fbd8460BcB9Cfab5aeBea7Ab0Ed328FE",
-    "tokens": [
-      {
-        "symbol": "WBTC",
-        "decimals": 8,
-        "chainId": 1,
-        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-        "name": "Wrapped BTC"
-      },
-      {
-        "symbol": "BTCM",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x36f9975d8184a65be42290D5A8764Dc97f3D9396",
-        "name": "Bitcoin Mapped Token"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0xE3FE800B0de664bf0bCa8aD58eCbc73B259047b0",
-    "tokens": [
-      {
-        "symbol": "POWR",
-        "decimals": 6,
-        "chainId": 1,
-        "address": "0x595832F8FC6BF59c85C527fEC3740A1b7a361269",
-        "name": "PowerLedger"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0xacdE4Dc80490Bc3671bbF1e421Ec78d43F24d899",
     "tokens": [
       {
@@ -3446,35 +3404,35 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xcBcC3cBaD991eC59204be2963b4a87951E4d292B",
+    "address": "0xEb5C52e8af57334FaB0b5f3d888990C108545527",
     "tokens": [
-      {
-        "symbol": "VITA",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321",
-        "name": "VitaDAO Token"
-      },
       {
         "symbol": "WETH",
         "decimals": 18,
         "chainId": 1,
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "name": "Wrapped Ether"
+      },
+      {
+        "symbol": "WRLD",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xD5d86FC8d5C0Ea1aC1Ac5Dfab6E529c9967a45E9",
+        "name": "NFT Worlds"
       }
     ]
   },
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x9359c87B38DD25192c5f2b07b351ac91C90E6ca7",
+    "address": "0xE3FE800B0de664bf0bCa8aD58eCbc73B259047b0",
     "tokens": [
       {
-        "symbol": "DPI",
-        "decimals": 18,
+        "symbol": "POWR",
+        "decimals": 6,
         "chainId": 1,
-        "address": "0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b",
-        "name": "DefiPulse Index"
+        "address": "0x595832F8FC6BF59c85C527fEC3740A1b7a361269",
+        "name": "PowerLedger"
       },
       {
         "symbol": "WETH",
@@ -3509,6 +3467,48 @@
   {
     "chainID": 1,
     "exchange": 1,
+    "address": "0x9359c87B38DD25192c5f2b07b351ac91C90E6ca7",
+    "tokens": [
+      {
+        "symbol": "DPI",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b",
+        "name": "DefiPulse Index"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0xcBcC3cBaD991eC59204be2963b4a87951E4d292B",
+    "tokens": [
+      {
+        "symbol": "VITA",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321",
+        "name": "VitaDAO Token"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
     "address": "0xF836a9268d39C89c9C8533BF97e93C00E25dC13e",
     "tokens": [
       {
@@ -3524,27 +3524,6 @@
         "chainId": 1,
         "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "name": "USD Coin"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x06B1655b9D560de112759b4F0Bf57d6F005e72Fe",
-    "tokens": [
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      },
-      {
-        "symbol": "GTC",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xDe30da39c46104798bB5aA3fe8B9e0e1F348163F",
-        "name": "Gitcoin"
       }
     ]
   },
@@ -3572,6 +3551,27 @@
   {
     "chainID": 1,
     "exchange": 1,
+    "address": "0x06B1655b9D560de112759b4F0Bf57d6F005e72Fe",
+    "tokens": [
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      },
+      {
+        "symbol": "GTC",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xDe30da39c46104798bB5aA3fe8B9e0e1F348163F",
+        "name": "Gitcoin"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
     "address": "0x381fE4Eb128db1621647cA00965da3F9e09F4fAc",
     "tokens": [
       {
@@ -3580,27 +3580,6 @@
         "chainId": 1,
         "address": "0x761D38e5ddf6ccf6Cf7c55759d5210750B5D60F3",
         "name": "Dogelon"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x9ee5F9bF3C2619A443d1cC228aa67b6A9776F961",
-    "tokens": [
-      {
-        "symbol": "Nvir",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x9d71CE49ab8A0E6D2a1e7BFB89374C9392FD6804",
-        "name": "NvirWorld"
       },
       {
         "symbol": "WETH",
@@ -3650,6 +3629,27 @@
         "chainId": 1,
         "address": "0xf4d2888d29D722226FafA5d9B24F9164c092421E",
         "name": "LooksRare Token"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x9ee5F9bF3C2619A443d1cC228aa67b6A9776F961",
+    "tokens": [
+      {
+        "symbol": "Nvir",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x9d71CE49ab8A0E6D2a1e7BFB89374C9392FD6804",
+        "name": "NvirWorld"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
       }
     ]
   },
@@ -3740,27 +3740,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xa4e0faA58465A2D369aa21B3e42d43374c6F9613",
-    "tokens": [
-      {
-        "symbol": "rETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
-        "name": "Rocket Pool ETH"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x11456b3750E991383bB8943118ed79C1afdEE192",
     "tokens": [
       {
@@ -3803,27 +3782,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x93C212B82c41dc99Ba8Ff5B21E03946da567ae6f",
-    "tokens": [
-      {
-        "symbol": "SHIT",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x4e4a47cAC6A28A62dcC20990ed2cdA9BC659469F",
-        "name": "ShitCoin"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x9437ad40056ca3eC2FC1EFe41885AD4B6ac46061",
     "tokens": [
       {
@@ -3845,14 +3803,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xD8de6af55F618a7Bc69835D55DDC6582220c36c0",
+    "address": "0x93C212B82c41dc99Ba8Ff5B21E03946da567ae6f",
     "tokens": [
       {
-        "symbol": "DYDX",
+        "symbol": "SHIT",
         "decimals": 18,
         "chainId": 1,
-        "address": "0x92D6C1e31e14520e676a687F0a93788B716BEff5",
-        "name": "dYdX"
+        "address": "0x4e4a47cAC6A28A62dcC20990ed2cdA9BC659469F",
+        "name": "ShitCoin"
       },
       {
         "symbol": "WETH",
@@ -3866,14 +3824,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x70BB8E6844DFB681810FD557DD741bCaF027bF94",
+    "address": "0xD8de6af55F618a7Bc69835D55DDC6582220c36c0",
     "tokens": [
       {
-        "symbol": "OGN",
+        "symbol": "DYDX",
         "decimals": 18,
         "chainId": 1,
-        "address": "0x8207c1FfC5B6804F6024322CcF34F29c3541Ae26",
-        "name": "OriginToken"
+        "address": "0x92D6C1e31e14520e676a687F0a93788B716BEff5",
+        "name": "dYdX"
       },
       {
         "symbol": "WETH",
@@ -3971,14 +3929,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xE331DE28cd81B768C19A366b0e4e4675c45eC2dA",
+    "address": "0x70BB8E6844DFB681810FD557DD741bCaF027bF94",
     "tokens": [
       {
-        "symbol": "XYO",
+        "symbol": "OGN",
         "decimals": 18,
         "chainId": 1,
-        "address": "0x55296f69f40Ea6d20E478533C15A6B08B654E758",
-        "name": "XY Oracle"
+        "address": "0x8207c1FfC5B6804F6024322CcF34F29c3541Ae26",
+        "name": "OriginToken"
       },
       {
         "symbol": "WETH",
@@ -4007,6 +3965,27 @@
         "chainId": 1,
         "address": "0xdbDD6F355A37b94e6C7D32fef548e98A280B8Df5",
         "name": "UniWhales.io"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0xE331DE28cd81B768C19A366b0e4e4675c45eC2dA",
+    "tokens": [
+      {
+        "symbol": "XYO",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x55296f69f40Ea6d20E478533C15A6B08B654E758",
+        "name": "XY Oracle"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
       }
     ]
   },
@@ -4055,27 +4034,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x59c38b6775Ded821f010DbD30eCabdCF84E04756",
-    "tokens": [
-      {
-        "symbol": "UNI",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
-        "name": "Uniswap"
-      },
-      {
-        "symbol": "AAVE",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
-        "name": "Aave Token"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0xE22052A1e89E4A9e0158671C355affdaDF8bacD1",
     "tokens": [
       {
@@ -4091,27 +4049,6 @@
         "chainId": 1,
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0xB0F4a77Bde7fEE134265307C5CC19abfF0ba409B",
-    "tokens": [
-      {
-        "symbol": "CHZ",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x3506424F91fD33084466F402d5D97f05F8e3b4AF",
-        "name": "chiliZ"
-      },
-      {
-        "symbol": "USDT",
-        "decimals": 6,
-        "chainId": 1,
-        "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "name": "Tether USD"
       }
     ]
   },
@@ -4154,6 +4091,27 @@
         "chainId": 1,
         "address": "0xcfcEcFe2bD2FED07A9145222E8a7ad9Cf1Ccd22A",
         "name": "Adshares"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0xB0F4a77Bde7fEE134265307C5CC19abfF0ba409B",
+    "tokens": [
+      {
+        "symbol": "CHZ",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x3506424F91fD33084466F402d5D97f05F8e3b4AF",
+        "name": "chiliZ"
+      },
+      {
+        "symbol": "USDT",
+        "decimals": 6,
+        "chainId": 1,
+        "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "name": "Tether USD"
       }
     ]
   },
@@ -4217,6 +4175,27 @@
         "chainId": 1,
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x59c38b6775Ded821f010DbD30eCabdCF84E04756",
+    "tokens": [
+      {
+        "symbol": "UNI",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "name": "Uniswap"
+      },
+      {
+        "symbol": "AAVE",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        "name": "Aave Token"
       }
     ]
   },
@@ -4391,27 +4370,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xD1D5A4c0eA98971894772Dcd6D2f1dc71083C44E",
-    "tokens": [
-      {
-        "symbol": "LQTY",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D",
-        "name": "LQTY"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0xD43b29AaF8aD938CfF4F478A0756defFfb329D07",
     "tokens": [
       {
@@ -4454,27 +4412,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x6aE0CDc5d2B89a8DCb99aD6b3435B3E7F7290077",
-    "tokens": [
-      {
-        "symbol": "KROM",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x3af33bEF05C2dCb3C7288b77fe1C8d2AeBA4d789",
-        "name": "Kromatika"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x85b5a7dC1630F9465d8409E2aC53313B70a71b9c",
     "tokens": [
       {
@@ -4490,6 +4427,48 @@
         "chainId": 1,
         "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "name": "Tether USD"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0xD1D5A4c0eA98971894772Dcd6D2f1dc71083C44E",
+    "tokens": [
+      {
+        "symbol": "LQTY",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D",
+        "name": "LQTY"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x6aE0CDc5d2B89a8DCb99aD6b3435B3E7F7290077",
+    "tokens": [
+      {
+        "symbol": "KROM",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x3af33bEF05C2dCb3C7288b77fe1C8d2AeBA4d789",
+        "name": "Kromatika"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
       }
     ]
   },
@@ -4538,27 +4517,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xb2db69D6986FBF38de781ba606923F8aE8D7f437",
-    "tokens": [
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      },
-      {
-        "symbol": "FPIS",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xc2544A32872A91F4A553b404C6950e89De901fdb",
-        "name": "Frax Price Index Share"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0xAE614a7a56cB79c04Df2aeBA6f5dAB80A39CA78E",
     "tokens": [
       {
@@ -4601,6 +4559,27 @@
   {
     "chainID": 1,
     "exchange": 1,
+    "address": "0xb2db69D6986FBF38de781ba606923F8aE8D7f437",
+    "tokens": [
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      },
+      {
+        "symbol": "FPIS",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xc2544A32872A91F4A553b404C6950e89De901fdb",
+        "name": "Frax Price Index Share"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
     "address": "0x7685cD3ddD862b8745B1082A6aCB19E14EAA74F3",
     "tokens": [
       {
@@ -4609,27 +4588,6 @@
         "chainId": 1,
         "address": "0xba5BDe662c17e2aDFF1075610382B9B691296350",
         "name": "SuperRare"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0xcbBc981bD5B358D09a9346726115D3Ac8822d00b",
-    "tokens": [
-      {
-        "symbol": "VXV",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x7D29A64504629172a429e64183D6673b9dAcbFCe",
-        "name": "VectorspaceAI"
       },
       {
         "symbol": "WETH",
@@ -4664,14 +4622,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xc3f6B81FB9e6DB259272026601689e383f94c0B0",
+    "address": "0xcbBc981bD5B358D09a9346726115D3Ac8822d00b",
     "tokens": [
       {
-        "symbol": "OVR",
+        "symbol": "VXV",
         "decimals": 18,
         "chainId": 1,
-        "address": "0x21BfBDa47A0B4B5b1248c767Ee49F7caA9B23697",
-        "name": "OVR"
+        "address": "0x7D29A64504629172a429e64183D6673b9dAcbFCe",
+        "name": "VectorspaceAI"
       },
       {
         "symbol": "WETH",
@@ -4685,14 +4643,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xbaEC0E18C770993ffb1175FEf493B5113CC6E32d",
+    "address": "0x275100747bBaaC268ee70229687E96975AA742a6",
     "tokens": [
       {
-        "symbol": "ILV",
+        "symbol": "WMATIC",
         "decimals": 18,
         "chainId": 1,
-        "address": "0x767FE9EDC9E0dF98E07454847909b5E959D7ca0E",
-        "name": "Illuvium"
+        "address": "0x7c9f4C87d911613Fe9ca58b579f737911AAD2D43",
+        "name": "Wrapped Matic (Wormhole)"
       },
       {
         "symbol": "WETH",
@@ -4727,14 +4685,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x275100747bBaaC268ee70229687E96975AA742a6",
+    "address": "0x7b12d855445073987D45ea97B1af3554f05E4ef4",
     "tokens": [
       {
-        "symbol": "WMATIC",
+        "symbol": "WOOL",
         "decimals": 18,
         "chainId": 1,
-        "address": "0x7c9f4C87d911613Fe9ca58b579f737911AAD2D43",
-        "name": "Wrapped Matic (Wormhole)"
+        "address": "0x8355DBE8B0e275ABAd27eB843F3eaF3FC855e525",
+        "name": "WOOL"
       },
       {
         "symbol": "WETH",
@@ -4748,14 +4706,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x7b12d855445073987D45ea97B1af3554f05E4ef4",
+    "address": "0xc3f6B81FB9e6DB259272026601689e383f94c0B0",
     "tokens": [
       {
-        "symbol": "WOOL",
+        "symbol": "OVR",
         "decimals": 18,
         "chainId": 1,
-        "address": "0x8355DBE8B0e275ABAd27eB843F3eaF3FC855e525",
-        "name": "WOOL"
+        "address": "0x21BfBDa47A0B4B5b1248c767Ee49F7caA9B23697",
+        "name": "OVR"
       },
       {
         "symbol": "WETH",
@@ -4811,27 +4769,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x14424eEeCbfF345B38187d0B8b749E56FAA68539",
-    "tokens": [
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      },
-      {
-        "symbol": "ZRX",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
-        "name": "0x Protocol Token"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x489cEbE6Cd5DC5dcB7047A1F0D4F358a5d2fB295",
     "tokens": [
       {
@@ -4874,6 +4811,27 @@
   {
     "chainID": 1,
     "exchange": 1,
+    "address": "0x14424eEeCbfF345B38187d0B8b749E56FAA68539",
+    "tokens": [
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      },
+      {
+        "symbol": "ZRX",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+        "name": "0x Protocol Token"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
     "address": "0xa21Ed0Af81d7cdaEbD06d1150C166821cFCD64FF",
     "tokens": [
       {
@@ -4889,27 +4847,6 @@
         "chainId": 1,
         "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "name": "Tether USD"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x3782a3425cd093D5cd0C5B684BE72641e199029c",
-    "tokens": [
-      {
-        "symbol": "BYTES",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x7d647b1A0dcD5525e9C6B3D14BE58f27674f8c95",
-        "name": "BYTES"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
       }
     ]
   },
@@ -4952,6 +4889,27 @@
         "chainId": 1,
         "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "name": "USD Coin"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x3782a3425cd093D5cd0C5B684BE72641e199029c",
+    "tokens": [
+      {
+        "symbol": "BYTES",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x7d647b1A0dcD5525e9C6B3D14BE58f27674f8c95",
+        "name": "BYTES"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
       }
     ]
   },
@@ -5105,27 +5063,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x96467EaE14BF1da07B5FeDD07b2a4030B8F1481D",
-    "tokens": [
-      {
-        "symbol": "wNXM",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x0d438F3b5175Bebc262bF23753C1E53d03432bDE",
-        "name": "Wrapped NXM"
-      },
-      {
-        "symbol": "ICHI",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x111111517e4929D3dcbdfa7CCe55d30d4B6BC4d6",
-        "name": "ICHI"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0xd4292615a8e9EDC07CBA49C1A9CBB93b873A181E",
     "tokens": [
       {
@@ -5210,27 +5147,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xEF9A9283440b2D7eFB9c7dCc17e94e234D5CccCD",
-    "tokens": [
-      {
-        "symbol": "sILV2",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x7E77dCb127F99ECe88230a64Db8d595F31F1b068",
-        "name": "Escrowed Illuvium 2"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x5e2474Ef1596ACEC4A7DB53E7f666dB1d1132afb",
     "tokens": [
       {
@@ -5246,6 +5162,27 @@
         "chainId": 1,
         "address": "0xDC98c5543F3004DEBfaad8966ec403093D0aa4A8",
         "name": "Etherrock #72"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x96467EaE14BF1da07B5FeDD07b2a4030B8F1481D",
+    "tokens": [
+      {
+        "symbol": "wNXM",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x0d438F3b5175Bebc262bF23753C1E53d03432bDE",
+        "name": "Wrapped NXM"
+      },
+      {
+        "symbol": "ICHI",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x111111517e4929D3dcbdfa7CCe55d30d4B6BC4d6",
+        "name": "ICHI"
       }
     ]
   },
@@ -5294,14 +5231,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x4858411a69af3351ED7d448A0d65C6146C11C218",
+    "address": "0xc75a99Fa00803896349891F8471Da3614bd07564",
     "tokens": [
       {
-        "symbol": "XCHF",
+        "symbol": "SOCKS",
         "decimals": 18,
         "chainId": 1,
-        "address": "0xB4272071eCAdd69d933AdcD19cA99fe80664fc08",
-        "name": "CryptoFranc"
+        "address": "0x23B608675a2B2fB1890d3ABBd85c5775c51691d5",
+        "name": "Unisocks Edition 0"
       },
       {
         "symbol": "WETH",
@@ -5315,14 +5252,35 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xc75a99Fa00803896349891F8471Da3614bd07564",
+    "address": "0xEF9A9283440b2D7eFB9c7dCc17e94e234D5CccCD",
     "tokens": [
       {
-        "symbol": "SOCKS",
+        "symbol": "sILV2",
         "decimals": 18,
         "chainId": 1,
-        "address": "0x23B608675a2B2fB1890d3ABBd85c5775c51691d5",
-        "name": "Unisocks Edition 0"
+        "address": "0x7E77dCb127F99ECe88230a64Db8d595F31F1b068",
+        "name": "Escrowed Illuvium 2"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x4858411a69af3351ED7d448A0d65C6146C11C218",
+    "tokens": [
+      {
+        "symbol": "XCHF",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xB4272071eCAdd69d933AdcD19cA99fe80664fc08",
+        "name": "CryptoFranc"
       },
       {
         "symbol": "WETH",
@@ -5399,27 +5357,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x9fEE77D8B5050A55c16D0446E6eAb06a6A24cd06",
-    "tokens": [
-      {
-        "symbol": "USDC",
-        "decimals": 6,
-        "chainId": 1,
-        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "name": "USD Coin"
-      },
-      {
-        "symbol": "POP",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xD0Cd466b34A24fcB2f87676278AF2005Ca8A78c4",
-        "name": "Popcorn"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x9Ab0905B39505D8682B58A57A41c4100e9c62Ab6",
     "tokens": [
       {
@@ -5483,6 +5420,27 @@
   {
     "chainID": 1,
     "exchange": 1,
+    "address": "0x9fEE77D8B5050A55c16D0446E6eAb06a6A24cd06",
+    "tokens": [
+      {
+        "symbol": "USDC",
+        "decimals": 6,
+        "chainId": 1,
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "name": "USD Coin"
+      },
+      {
+        "symbol": "POP",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xD0Cd466b34A24fcB2f87676278AF2005Ca8A78c4",
+        "name": "Popcorn"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
     "address": "0x6dE28F1176311b7408329A4D21c2bD1441be157f",
     "tokens": [
       {
@@ -5533,27 +5491,6 @@
         "chainId": 1,
         "address": "0x37C997B35C619C21323F3518B9357914E8B99525",
         "name": "Unipilot"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0xeFbd546647FDA46067225bD0221e08bA91071584",
-    "tokens": [
-      {
-        "symbol": "RVP",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x17EF75AA22dD5f6C2763b8304Ab24f40eE54D48a",
-        "name": "RevolutionPopuli ERC20 Token"
       },
       {
         "symbol": "WETH",
@@ -5651,6 +5588,27 @@
   {
     "chainID": 1,
     "exchange": 1,
+    "address": "0xeFbd546647FDA46067225bD0221e08bA91071584",
+    "tokens": [
+      {
+        "symbol": "RVP",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x17EF75AA22dD5f6C2763b8304Ab24f40eE54D48a",
+        "name": "RevolutionPopuli ERC20 Token"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
     "address": "0x77924185CF0cbB2Ae0b746A0086A065d6875b0a5",
     "tokens": [
       {
@@ -5659,6 +5617,27 @@
         "chainId": 1,
         "address": "0x72B886d09C117654aB7dA13A14d603001dE0B777",
         "name": "XDEFI"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x1eeFC75cc4458e651480e80d74B263b77a93CB11",
+    "tokens": [
+      {
+        "symbol": "PERP",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xbC396689893D065F41bc2C6EcbeE5e0085233447",
+        "name": "Perpetual"
       },
       {
         "symbol": "WETH",
@@ -5693,27 +5672,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x1eeFC75cc4458e651480e80d74B263b77a93CB11",
-    "tokens": [
-      {
-        "symbol": "PERP",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xbC396689893D065F41bc2C6EcbeE5e0085233447",
-        "name": "Perpetual"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0xD251DfF33E31bB98D5587E5b1004Ff01a5a41289",
     "tokens": [
       {
@@ -5729,27 +5687,6 @@
         "chainId": 1,
         "address": "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D",
         "name": "LQTY"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x2a0330c7e979A4d18E5B0C987b877DA24dd37D04",
-    "tokens": [
-      {
-        "symbol": "AIOZ",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x626E8036dEB333b408Be468F951bdB42433cBF18",
-        "name": "AIOZ Network"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
       }
     ]
   },
@@ -5840,6 +5777,27 @@
   {
     "chainID": 1,
     "exchange": 1,
+    "address": "0x2a0330c7e979A4d18E5B0C987b877DA24dd37D04",
+    "tokens": [
+      {
+        "symbol": "AIOZ",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x626E8036dEB333b408Be468F951bdB42433cBF18",
+        "name": "AIOZ Network"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
     "address": "0x92995D179a5528334356cB4Dc5c6cbb1c068696C",
     "tokens": [
       {
@@ -5882,27 +5840,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x3139bbbA7f4B9125595cB4eBeefdaC1fCe7Ab5f1",
-    "tokens": [
-      {
-        "symbol": "RUNE",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x3155BA85D5F96b2d030a4966AF206230e46849cb",
-        "name": "THORChain ETH.RUNE"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0xf0E02Cf61b31260fd5AE527d58Be16312BDA59b1",
     "tokens": [
       {
@@ -5924,14 +5861,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x59B4BB1f5D943CF71A10Df63F6B743ee4a4489EE",
+    "address": "0x3139bbbA7f4B9125595cB4eBeefdaC1fCe7Ab5f1",
     "tokens": [
       {
-        "symbol": "XMON",
+        "symbol": "RUNE",
         "decimals": 18,
         "chainId": 1,
-        "address": "0x3aaDA3e213aBf8529606924d8D1c55CbDc70Bf74",
-        "name": "XMON"
+        "address": "0x3155BA85D5F96b2d030a4966AF206230e46849cb",
+        "name": "THORChain ETH.RUNE"
       },
       {
         "symbol": "WETH",
@@ -5987,6 +5924,90 @@
   {
     "chainID": 1,
     "exchange": 1,
+    "address": "0x3311Bf503B5Cd93Fdb37776CB22Dd47b75Bf5a28",
+    "tokens": [
+      {
+        "symbol": "HEX",
+        "decimals": 8,
+        "chainId": 1,
+        "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+        "name": "HEX"
+      },
+      {
+        "symbol": "PLSD",
+        "decimals": 12,
+        "chainId": 1,
+        "address": "0x34F0915a5f15a66Eba86F6a58bE1A471FB7836A7",
+        "name": "PulseDogecoin"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0xA7600C4fBdDB57e44018BEE74A5f6b636Cb68352",
+    "tokens": [
+      {
+        "symbol": "CPOOL",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x66761Fa41377003622aEE3c7675Fc7b5c1C2FaC5",
+        "name": "Clearpool"
+      },
+      {
+        "symbol": "USDC",
+        "decimals": 6,
+        "chainId": 1,
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "name": "USD Coin"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x31AD100cEf4CbdBA0522A751541810d122d92120",
+    "tokens": [
+      {
+        "symbol": "USDC",
+        "decimals": 6,
+        "chainId": 1,
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "name": "USD Coin"
+      },
+      {
+        "symbol": "LYXe",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xA8b919680258d369114910511cc87595aec0be6D",
+        "name": "LUKSO Token"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0xC12aF0C4AA39D3061c56cD3CB19f5e62dEeaeBdE",
+    "tokens": [
+      {
+        "symbol": "wstETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "name": "Wrapped liquid staked Ether 2.0"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
     "address": "0x1622F1beF90233A6993f3bc85759Adf5b9d9D7b9",
     "tokens": [
       {
@@ -6029,111 +6050,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x3311Bf503B5Cd93Fdb37776CB22Dd47b75Bf5a28",
-    "tokens": [
-      {
-        "symbol": "HEX",
-        "decimals": 8,
-        "chainId": 1,
-        "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
-        "name": "HEX"
-      },
-      {
-        "symbol": "PLSD",
-        "decimals": 12,
-        "chainId": 1,
-        "address": "0x34F0915a5f15a66Eba86F6a58bE1A471FB7836A7",
-        "name": "PulseDogecoin"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x31AD100cEf4CbdBA0522A751541810d122d92120",
-    "tokens": [
-      {
-        "symbol": "USDC",
-        "decimals": 6,
-        "chainId": 1,
-        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "name": "USD Coin"
-      },
-      {
-        "symbol": "LYXe",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xA8b919680258d369114910511cc87595aec0be6D",
-        "name": "LUKSO Token"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0xA7600C4fBdDB57e44018BEE74A5f6b636Cb68352",
-    "tokens": [
-      {
-        "symbol": "CPOOL",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x66761Fa41377003622aEE3c7675Fc7b5c1C2FaC5",
-        "name": "Clearpool"
-      },
-      {
-        "symbol": "USDC",
-        "decimals": 6,
-        "chainId": 1,
-        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "name": "USD Coin"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0xEDe8dd046586d22625Ae7fF2708F879eF7bdb8CF",
-    "tokens": [
-      {
-        "symbol": "SNX",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
-        "name": "Synthetix Network Token"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0xC12aF0C4AA39D3061c56cD3CB19f5e62dEeaeBdE",
-    "tokens": [
-      {
-        "symbol": "wstETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
-        "name": "Wrapped liquid staked Ether 2.0"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0xB6b965A08F298b75CA16D473d812e6A23B1D753F",
     "tokens": [
       {
@@ -6149,6 +6065,27 @@
         "chainId": 1,
         "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "name": "USD Coin"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x59B4BB1f5D943CF71A10Df63F6B743ee4a4489EE",
+    "tokens": [
+      {
+        "symbol": "XMON",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x3aaDA3e213aBf8529606924d8D1c55CbDc70Bf74",
+        "name": "XMON"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
       }
     ]
   },
@@ -6191,27 +6128,6 @@
         "chainId": 1,
         "address": "0x3b94440C8c4F69D5C9F47BaB9C5A93064Df460F5",
         "name": "Ring.Exchange"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x87d1b1A3675fF4ff6101926C1cCE971cd2D513eF",
-    "tokens": [
-      {
-        "symbol": "BTC2x-FLI",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x0B498ff89709d3838a063f1dFA463091F9801c2b",
-        "name": "BTC 2x Flexible Leverage Index"
-      },
-      {
-        "symbol": "WBTC",
-        "decimals": 8,
-        "chainId": 1,
-        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-        "name": "Wrapped BTC"
       }
     ]
   },
@@ -6281,35 +6197,35 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xa9c5b677f0Ed59D39D3F441dCb5DAf0d6e276B5b",
+    "address": "0x87d1b1A3675fF4ff6101926C1cCE971cd2D513eF",
     "tokens": [
       {
-        "symbol": "TOWN",
-        "decimals": 8,
-        "chainId": 1,
-        "address": "0x3Dd98C8A089dBCFF7e8FC8d4f532BD493501Ab7F",
-        "name": "TownCoin"
-      },
-      {
-        "symbol": "WETH",
+        "symbol": "BTC2x-FLI",
         "decimals": 18,
         "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
+        "address": "0x0B498ff89709d3838a063f1dFA463091F9801c2b",
+        "name": "BTC 2x Flexible Leverage Index"
+      },
+      {
+        "symbol": "WBTC",
+        "decimals": 8,
+        "chainId": 1,
+        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "name": "Wrapped BTC"
       }
     ]
   },
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x4Efc9E2E3E77732Ce2F9612b8F050082C01688BD",
+    "address": "0xEDe8dd046586d22625Ae7fF2708F879eF7bdb8CF",
     "tokens": [
       {
-        "symbol": "GREEN",
-        "decimals": 8,
+        "symbol": "SNX",
+        "decimals": 18,
         "chainId": 1,
-        "address": "0xb2089A7069861C8D90c8dA3aaCAB8e9188C0C531",
-        "name": "Green"
+        "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+        "name": "Synthetix Network Token"
       },
       {
         "symbol": "WETH",
@@ -6344,6 +6260,27 @@
   {
     "chainID": 1,
     "exchange": 1,
+    "address": "0x4Efc9E2E3E77732Ce2F9612b8F050082C01688BD",
+    "tokens": [
+      {
+        "symbol": "GREEN",
+        "decimals": 8,
+        "chainId": 1,
+        "address": "0xb2089A7069861C8D90c8dA3aaCAB8e9188C0C531",
+        "name": "Green"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
     "address": "0x5E35C4Eba72470Ee1177dcB14dDdf4d9e6D915f4",
     "tokens": [
       {
@@ -6359,6 +6296,27 @@
         "chainId": 1,
         "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "name": "USD Coin"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0xa9c5b677f0Ed59D39D3F441dCb5DAf0d6e276B5b",
+    "tokens": [
+      {
+        "symbol": "TOWN",
+        "decimals": 8,
+        "chainId": 1,
+        "address": "0x3Dd98C8A089dBCFF7e8FC8d4f532BD493501Ab7F",
+        "name": "TownCoin"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
       }
     ]
   },
@@ -6722,27 +6680,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xb404057EE4B1d7359Ca5a57aC1C020B74c23E56b",
-    "tokens": [
-      {
-        "symbol": "FTX Token",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9",
-        "name": "FTT"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x19f83460e387F1b01F94b85c2532EBC15B0b712e",
     "tokens": [
       {
@@ -6800,6 +6737,27 @@
         "chainId": 1,
         "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "name": "USD Coin"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0xb404057EE4B1d7359Ca5a57aC1C020B74c23E56b",
+    "tokens": [
+      {
+        "symbol": "FTX Token",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9",
+        "name": "FTT"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
       }
     ]
   },
@@ -6932,27 +6890,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xbd5fDda17bC27bB90E37Df7A838b1bFC0dC997F5",
-    "tokens": [
-      {
-        "symbol": "USDC",
-        "decimals": 6,
-        "chainId": 1,
-        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "name": "USD Coin"
-      },
-      {
-        "symbol": "EURS",
-        "decimals": 2,
-        "chainId": 1,
-        "address": "0xdB25f211AB05b1c97D595516F45794528a807ad8",
-        "name": "STASIS EURS Token"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0xf9D29c7C0691CA27f076828B4C1de6f6b14C0bDA",
     "tokens": [
       {
@@ -6968,6 +6905,27 @@
         "chainId": 1,
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0xbd5fDda17bC27bB90E37Df7A838b1bFC0dC997F5",
+    "tokens": [
+      {
+        "symbol": "USDC",
+        "decimals": 6,
+        "chainId": 1,
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "name": "USD Coin"
+      },
+      {
+        "symbol": "EURS",
+        "decimals": 2,
+        "chainId": 1,
+        "address": "0xdB25f211AB05b1c97D595516F45794528a807ad8",
+        "name": "STASIS EURS Token"
       }
     ]
   },
@@ -7226,6 +7184,27 @@
   {
     "chainID": 1,
     "exchange": 1,
+    "address": "0xA2FF3d4FfAf8c67cfC71a19ea437BcC2A9893d16",
+    "tokens": [
+      {
+        "symbol": "TKING",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x24E89bDf2f65326b94E36978A7EDeAc63623DAFA",
+        "name": "Tiger King"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
     "address": "0x3E5a6AF33CC70646bc46AFf0AF4B930d92856b18",
     "tokens": [
       {
@@ -7289,14 +7268,14 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xA2FF3d4FfAf8c67cfC71a19ea437BcC2A9893d16",
+    "address": "0xad6D2F2CB7Bf2c55c7493fd650d3A66A4C72c483",
     "tokens": [
       {
-        "symbol": "TKING",
+        "symbol": "PAPER",
         "decimals": 18,
         "chainId": 1,
-        "address": "0x24E89bDf2f65326b94E36978A7EDeAc63623DAFA",
-        "name": "Tiger King"
+        "address": "0x7aE1D57b58fA6411F32948314BadD83583eE0e8C",
+        "name": "Paper"
       },
       {
         "symbol": "WETH",
@@ -7325,48 +7304,6 @@
         "chainId": 1,
         "address": "0xc5102fE9359FD9a28f877a67E36B0F050d81a3CC",
         "name": "Hop"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0xad6D2F2CB7Bf2c55c7493fd650d3A66A4C72c483",
-    "tokens": [
-      {
-        "symbol": "PAPER",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x7aE1D57b58fA6411F32948314BadD83583eE0e8C",
-        "name": "Paper"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x71c1d309dea75C5A2feEa55dBEE68aAc6768c12E",
-    "tokens": [
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      },
-      {
-        "symbol": "OMI",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xeD35af169aF46a02eE13b9d79Eb57d6D68C1749e",
-        "name": "OMI Token"
       }
     ]
   },
@@ -7430,6 +7367,48 @@
         "chainId": 1,
         "address": "0xa47c8bf37f92aBed4A126BDA807A7b7498661acD",
         "name": "Wrapped UST Token"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x71c1d309dea75C5A2feEa55dBEE68aAc6768c12E",
+    "tokens": [
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      },
+      {
+        "symbol": "OMI",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xeD35af169aF46a02eE13b9d79Eb57d6D68C1749e",
+        "name": "OMI Token"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x5104846dC1C3c7697B856dC69E350AE4dCc47E24",
+    "tokens": [
+      {
+        "symbol": "LORDS",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x686f2404e77Ab0d9070a46cdfb0B7feCDD2318b0",
+        "name": "Lords"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
       }
     ]
   },
@@ -7541,6 +7520,27 @@
   {
     "chainID": 1,
     "exchange": 1,
+    "address": "0x2b43Fe4F41D871fBc75aF6e0cE85BcE38fF1eDC7",
+    "tokens": [
+      {
+        "symbol": "Coval",
+        "decimals": 8,
+        "chainId": 1,
+        "address": "0x3D658390460295FB963f54dC0899cfb1c30776Df",
+        "name": "CircuitsOfValue"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
     "address": "0x6a9850E46518231B23e50467c975Fa94026BE5d5",
     "tokens": [
       {
@@ -7577,27 +7577,6 @@
         "chainId": 1,
         "address": "0xD478161C952357F05f0292B56012Cd8457F1cfbF",
         "name": "Polkamarkets"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x5104846dC1C3c7697B856dC69E350AE4dCc47E24",
-    "tokens": [
-      {
-        "symbol": "LORDS",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x686f2404e77Ab0d9070a46cdfb0B7feCDD2318b0",
-        "name": "Lords"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
       }
     ]
   },
@@ -7835,6 +7814,27 @@
   {
     "chainID": 1,
     "exchange": 1,
+    "address": "0x2ae4517B2806b84A576C10F698d6567CE80A6490",
+    "tokens": [
+      {
+        "symbol": "MAXI",
+        "decimals": 8,
+        "chainId": 1,
+        "address": "0x0d86EB9f43C57f6FF3BC9E23D8F9d82503f0e84b",
+        "name": "Maximus"
+      },
+      {
+        "symbol": "HEX",
+        "decimals": 8,
+        "chainId": 1,
+        "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+        "name": "HEX"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
     "address": "0xfaA318479b7755b2dBfDD34dC306cb28B420Ad12",
     "tokens": [
       {
@@ -7843,48 +7843,6 @@
         "chainId": 1,
         "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
         "name": "Uniswap"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x2b43Fe4F41D871fBc75aF6e0cE85BcE38fF1eDC7",
-    "tokens": [
-      {
-        "symbol": "Coval",
-        "decimals": 8,
-        "chainId": 1,
-        "address": "0x3D658390460295FB963f54dC0899cfb1c30776Df",
-        "name": "CircuitsOfValue"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x63805e5d951398bC1C1bec242d303f59fA7732E3",
-    "tokens": [
-      {
-        "symbol": "X2Y2",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x1E4EDE388cbc9F4b5c79681B7f94d36a11ABEBC9",
-        "name": "X2Y2Token"
       },
       {
         "symbol": "WETH",
@@ -7940,6 +7898,27 @@
   {
     "chainID": 1,
     "exchange": 1,
+    "address": "0x63805e5d951398bC1C1bec242d303f59fA7732E3",
+    "tokens": [
+      {
+        "symbol": "X2Y2",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x1E4EDE388cbc9F4b5c79681B7f94d36a11ABEBC9",
+        "name": "X2Y2Token"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
     "address": "0x3Ce42eF6b6617b5950C13D1c258eCFDcd30bB4De",
     "tokens": [
       {
@@ -7982,27 +7961,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x2ae4517B2806b84A576C10F698d6567CE80A6490",
-    "tokens": [
-      {
-        "symbol": "MAXI",
-        "decimals": 8,
-        "chainId": 1,
-        "address": "0x0d86EB9f43C57f6FF3BC9E23D8F9d82503f0e84b",
-        "name": "Maximus"
-      },
-      {
-        "symbol": "HEX",
-        "decimals": 8,
-        "chainId": 1,
-        "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
-        "name": "HEX"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x2E8dAf55F212BE91D3fA882ccEAb193A08fddeB2",
     "tokens": [
       {
@@ -8018,27 +7976,6 @@
         "chainId": 1,
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x08f68110f1e0Ca67C80a24B4Bd206675610f445D",
-    "tokens": [
-      {
-        "symbol": "gOHM",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x0ab87046fBb341D058F17CBC4c1133F25a20a52f",
-        "name": "Governance OHM"
-      },
-      {
-        "symbol": "USDC",
-        "decimals": 6,
-        "chainId": 1,
-        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "name": "USD Coin"
       }
     ]
   },
@@ -8081,6 +8018,27 @@
         "chainId": 1,
         "address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
         "name": "LoopringCoin V2"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x08f68110f1e0Ca67C80a24B4Bd206675610f445D",
+    "tokens": [
+      {
+        "symbol": "gOHM",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x0ab87046fBb341D058F17CBC4c1133F25a20a52f",
+        "name": "Governance OHM"
+      },
+      {
+        "symbol": "USDC",
+        "decimals": 6,
+        "chainId": 1,
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "name": "USD Coin"
       }
     ]
   },
@@ -8213,27 +8171,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x05aaa0053Fa5c28e8C558d4c648Cc129bEa45018",
-    "tokens": [
-      {
-        "symbol": "NCT",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x9E46A38F5DaaBe8683E10793b06749EEF7D733d1",
-        "name": "Nectar"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0xB06E7Ed37CFA8F0f2888355DD1913e45412798c5",
     "tokens": [
       {
@@ -8249,6 +8186,27 @@
         "chainId": 1,
         "address": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
         "name": "Graph Token"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x05aaa0053Fa5c28e8C558d4c648Cc129bEa45018",
+    "tokens": [
+      {
+        "symbol": "NCT",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x9E46A38F5DaaBe8683E10793b06749EEF7D733d1",
+        "name": "Nectar"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
       }
     ]
   },
@@ -8276,48 +8234,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x6BeE0F0DEA573EC04A77Ff3547691f2EDCCf2A7c",
-    "tokens": [
-      {
-        "symbol": "BETA",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xBe1a001FE942f96Eea22bA08783140B9Dcc09D28",
-        "name": "Beta Token"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x7EE092FD479185Dd741E3E6994F255bB3624f765",
-    "tokens": [
-      {
-        "symbol": "USDC",
-        "decimals": 6,
-        "chainId": 1,
-        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "name": "USD Coin"
-      },
-      {
-        "symbol": "FLOAT",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xb05097849BCA421A3f51B249BA6CCa4aF4b97cb9",
-        "name": "Float Protocol: FLOAT"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x5F3c621D810C7c929fB440E03dADF8621Fe61AB5",
     "tokens": [
       {
@@ -8333,6 +8249,27 @@
         "chainId": 1,
         "address": "0xc98D64DA73a6616c42117b582e832812e7B8D57F",
         "name": "RSS3"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x6BeE0F0DEA573EC04A77Ff3547691f2EDCCf2A7c",
+    "tokens": [
+      {
+        "symbol": "BETA",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xBe1a001FE942f96Eea22bA08783140B9Dcc09D28",
+        "name": "Beta Token"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
       }
     ]
   },
@@ -8423,21 +8360,21 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xCDff6ddfC9e4807C9927Fd58708C2Ef3484CC305",
+    "address": "0x7EE092FD479185Dd741E3E6994F255bB3624f765",
     "tokens": [
       {
-        "symbol": "AVT",
-        "decimals": 18,
+        "symbol": "USDC",
+        "decimals": 6,
         "chainId": 1,
-        "address": "0x0d88eD6E74bbFD96B831231638b66C05571e824F",
-        "name": ""
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "name": "USD Coin"
       },
       {
-        "symbol": "WETH",
+        "symbol": "FLOAT",
         "decimals": 18,
         "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
+        "address": "0xb05097849BCA421A3f51B249BA6CCa4aF4b97cb9",
+        "name": "Float Protocol: FLOAT"
       }
     ]
   },
@@ -8528,27 +8465,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xb66776014d002479aCE38EC16e604e465851A33B",
-    "tokens": [
-      {
-        "symbol": "BAT",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
-        "name": "Basic Attention Token"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x4a73a7e29988F171910119d660c4dd548282bF2a",
     "tokens": [
       {
@@ -8564,6 +8480,27 @@
         "chainId": 1,
         "address": "0xcAfE001067cDEF266AfB7Eb5A286dCFD277f3dE5",
         "name": "ParaSwap"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0xb66776014d002479aCE38EC16e604e465851A33B",
+    "tokens": [
+      {
+        "symbol": "BAT",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
+        "name": "Basic Attention Token"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
       }
     ]
   },
@@ -8683,6 +8620,27 @@
         "chainId": 1,
         "address": "0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e",
         "name": "UniBright"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0xCDff6ddfC9e4807C9927Fd58708C2Ef3484CC305",
+    "tokens": [
+      {
+        "symbol": "AVT",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x0d88eD6E74bbFD96B831231638b66C05571e824F",
+        "name": ""
       },
       {
         "symbol": "WETH",
@@ -8927,27 +8885,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xAB9F4f8deEF776deCeb47B5b97aAD55515B64eBc",
-    "tokens": [
-      {
-        "symbol": "XYO",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x55296f69f40Ea6d20E478533C15A6B08B654E758",
-        "name": "XY Oracle"
-      },
-      {
-        "symbol": "USDC",
-        "decimals": 6,
-        "chainId": 1,
-        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "name": "USD Coin"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x4547F171D5d5b8cc852C000A25ac09f25AC5B46E",
     "tokens": [
       {
@@ -8990,21 +8927,21 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x813b22032E94667CC0F854Cc7241FC5A309c45bc",
+    "address": "0xAB9F4f8deEF776deCeb47B5b97aAD55515B64eBc",
     "tokens": [
+      {
+        "symbol": "XYO",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x55296f69f40Ea6d20E478533C15A6B08B654E758",
+        "name": "XY Oracle"
+      },
       {
         "symbol": "USDC",
         "decimals": 6,
         "chainId": 1,
         "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "name": "USD Coin"
-      },
-      {
-        "symbol": "LOOKS",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xf4d2888d29D722226FafA5d9B24F9164c092421E",
-        "name": "LooksRare Token"
       }
     ]
   },
@@ -9047,6 +8984,27 @@
         "chainId": 1,
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "name": "Wrapped Ether"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x813b22032E94667CC0F854Cc7241FC5A309c45bc",
+    "tokens": [
+      {
+        "symbol": "USDC",
+        "decimals": 6,
+        "chainId": 1,
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "name": "USD Coin"
+      },
+      {
+        "symbol": "LOOKS",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xf4d2888d29D722226FafA5d9B24F9164c092421E",
+        "name": "LooksRare Token"
       }
     ]
   },
@@ -9116,27 +9074,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xFAaCE66BD25abFF62718AbD6DB97560E414eC074",
-    "tokens": [
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      },
-      {
-        "symbol": "RARI",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xFca59Cd816aB1eaD66534D82bc21E7515cE441CF",
-        "name": "Rarible"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x52414C8b908E9a75C3C8704B2ae5E39AB7156c05",
     "tokens": [
       {
@@ -9194,6 +9131,27 @@
         "chainId": 1,
         "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "name": "USD Coin"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0xFAaCE66BD25abFF62718AbD6DB97560E414eC074",
+    "tokens": [
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      },
+      {
+        "symbol": "RARI",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xFca59Cd816aB1eaD66534D82bc21E7515cE441CF",
+        "name": "Rarible"
       }
     ]
   },
@@ -9263,27 +9221,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xF2C055823dD744234694815C6c42f2956191cE1f",
-    "tokens": [
-      {
-        "symbol": "ICHI",
-        "decimals": 9,
-        "chainId": 1,
-        "address": "0x903bEF1736CDdf2A537176cf3C64579C3867A881",
-        "name": "ichi.farm"
-      },
-      {
-        "symbol": "USDC",
-        "decimals": 6,
-        "chainId": 1,
-        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "name": "USD Coin"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x78AB16803d92F6Db77ef6D4E92fe139AFfAB78cf",
     "tokens": [
       {
@@ -9347,21 +9284,21 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0x9445bd19767F73DCaE6f2De90e6cd31192F62589",
+    "address": "0xF2C055823dD744234694815C6c42f2956191cE1f",
     "tokens": [
+      {
+        "symbol": "ICHI",
+        "decimals": 9,
+        "chainId": 1,
+        "address": "0x903bEF1736CDdf2A537176cf3C64579C3867A881",
+        "name": "ichi.farm"
+      },
       {
         "symbol": "USDC",
         "decimals": 6,
         "chainId": 1,
         "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "name": "USD Coin"
-      },
-      {
-        "symbol": "CRV",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
-        "name": "Curve DAO Token"
       }
     ]
   },
@@ -9389,6 +9326,27 @@
   {
     "chainID": 1,
     "exchange": 1,
+    "address": "0x9445bd19767F73DCaE6f2De90e6cd31192F62589",
+    "tokens": [
+      {
+        "symbol": "USDC",
+        "decimals": 6,
+        "chainId": 1,
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "name": "USD Coin"
+      },
+      {
+        "symbol": "CRV",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+        "name": "Curve DAO Token"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
     "address": "0x25325B77e33A1fbd267b65d692d17115a2b27C65",
     "tokens": [
       {
@@ -9404,6 +9362,27 @@
         "chainId": 1,
         "address": "0xEd04915c23f00A313a544955524EB7DBD823143d",
         "name": "Alchemy"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0xB1608e16609a7fF3AC5b0DA49A0539Bb0C3c3D9D",
+    "tokens": [
+      {
+        "symbol": "EWTB",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x178c820f862B14f316509ec36b13123DA19A6054",
+        "name": "Energy Web Token Bridged"
+      },
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
       }
     ]
   },
@@ -9515,48 +9494,6 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xB1608e16609a7fF3AC5b0DA49A0539Bb0C3c3D9D",
-    "tokens": [
-      {
-        "symbol": "EWTB",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x178c820f862B14f316509ec36b13123DA19A6054",
-        "name": "Energy Web Token Bridged"
-      },
-      {
-        "symbol": "WETH",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "name": "Wrapped Ether"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
-    "address": "0x125aAF123057F41f3Eb0415bBDACFcD2b66C4Ec6",
-    "tokens": [
-      {
-        "symbol": "ICHI",
-        "decimals": 18,
-        "chainId": 1,
-        "address": "0x111111517e4929D3dcbdfa7CCe55d30d4B6BC4d6",
-        "name": "ICHI"
-      },
-      {
-        "symbol": "ICHI",
-        "decimals": 9,
-        "chainId": 1,
-        "address": "0x903bEF1736CDdf2A537176cf3C64579C3867A881",
-        "name": "ichi.farm"
-      }
-    ]
-  },
-  {
-    "chainID": 1,
-    "exchange": 1,
     "address": "0x672aCBd975BF5b43b6Cd5A35E4CB427f1026ffF6",
     "tokens": [
       {
@@ -9641,21 +9578,42 @@
   {
     "chainID": 1,
     "exchange": 1,
-    "address": "0xD017617f6F0fD22796E137a8240cc38F52a147B2",
+    "address": "0xbaEC0E18C770993ffb1175FEf493B5113CC6E32d",
     "tokens": [
+      {
+        "symbol": "ILV",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x767FE9EDC9E0dF98E07454847909b5E959D7ca0E",
+        "name": "Illuvium"
+      },
       {
         "symbol": "WETH",
         "decimals": 18,
         "chainId": 1,
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "name": "Wrapped Ether"
-      },
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x125aAF123057F41f3Eb0415bBDACFcD2b66C4Ec6",
+    "tokens": [
       {
-        "symbol": "GTC",
+        "symbol": "ICHI",
         "decimals": 18,
         "chainId": 1,
-        "address": "0xDe30da39c46104798bB5aA3fe8B9e0e1F348163F",
-        "name": "Gitcoin"
+        "address": "0x111111517e4929D3dcbdfa7CCe55d30d4B6BC4d6",
+        "name": "ICHI"
+      },
+      {
+        "symbol": "ICHI",
+        "decimals": 9,
+        "chainId": 1,
+        "address": "0x903bEF1736CDdf2A537176cf3C64579C3867A881",
+        "name": "ichi.farm"
       }
     ]
   },
@@ -9803,6 +9761,27 @@
         "chainId": 1,
         "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "name": "Dai Stablecoin"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0xD017617f6F0fD22796E137a8240cc38F52a147B2",
+    "tokens": [
+      {
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped Ether"
+      },
+      {
+        "symbol": "GTC",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0xDe30da39c46104798bB5aA3fe8B9e0e1F348163F",
+        "name": "Gitcoin"
       }
     ]
   },
@@ -10496,6 +10475,27 @@
         "chainId": 1,
         "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "name": "USD Coin"
+      }
+    ]
+  },
+  {
+    "chainID": 1,
+    "exchange": 1,
+    "address": "0x996d945D7D1EdF3Bb0F1D6B54563531745830DCF",
+    "tokens": [
+      {
+        "symbol": "LPG",
+        "decimals": 18,
+        "chainId": 1,
+        "address": "0x40932D9cd67e89749406F16eDD2D211B7ab1ff50",
+        "name": "LPGToken"
+      },
+      {
+        "symbol": "USDT",
+        "decimals": 6,
+        "chainId": 1,
+        "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "name": "Tether USD"
       }
     ]
   }
